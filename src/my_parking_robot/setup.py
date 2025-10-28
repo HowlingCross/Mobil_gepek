@@ -10,26 +10,19 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', ['launch/my_parking_robot.launch.xml']),
+        ('share/' + package_name + '/rviz', ['rviz/my_parking_robot.rviz'])
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='andrisgerber',
-    maintainer_email='andrisgerber2004@gmail.com',
+    maintainer='mgm',
+    maintainer_email='doba.daniel@outlook.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    extras_require={
-        'test': [
-            'pytest',
-        ],
-    },
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "test_node = my_parking_robot.my_first_node:main",
-            "draw_circle = my_parking_robot.draw_circle:main",
-            "pose_subscriber = my_parking_robot.pose_subscriber:main",
-            "turtle_controller = my_parking_robot.turtle_controller:main",
-            "andras_handwritten = my_parking_robot.andras_handwritten:main"
-        
+            "my_parking_robot = my_parking_robot.my_parking_robot:main"
         ],
     },
 )

@@ -1,0 +1,3 @@
+[console_scripts]
+test_scan = my_parking_robot.scan_tf:main
+

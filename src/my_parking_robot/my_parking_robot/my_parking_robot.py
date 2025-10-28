@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 
-class MyNode(Node):
+class my_parking_robot(Node):
 
     def __init__(self):
         super().__init__("first_node")
@@ -10,12 +10,12 @@ class MyNode(Node):
         self.create_timer(1.0, self.timer_callback)
 
     def timer_callback(self):
-        self.get_logger().info("Pozi " + str(self.counter))
+        self.get_logger().info("Pozi" + str(self.counter))
         self.counter +=1
 
 def main(args=None):
     rclpy.init(args=args)
-    node = MyNode()
+    node = my_parking_robot()
     rclpy.spin(node)
     rclpy.shutdown
 
