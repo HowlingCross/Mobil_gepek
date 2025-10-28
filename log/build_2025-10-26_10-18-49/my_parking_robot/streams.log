@@ -1,0 +1,20 @@
+[0.751s] Invoking command in '/home/andrisgerber/ros2_ws/build/my_parking_robot': PS1=\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/andrisgerber/ros2_ws/build/my_parking_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/andrisgerber/ros2_ws/build/my_parking_robot/build --no-deps symlink_data
+[1.058s] running develop
+[1.244s] running egg_info
+[1.244s] writing my_parking_robot.egg-info/PKG-INFO
+[1.244s] writing dependency_links to my_parking_robot.egg-info/dependency_links.txt
+[1.244s] writing entry points to my_parking_robot.egg-info/entry_points.txt
+[1.244s] writing requirements to my_parking_robot.egg-info/requires.txt
+[1.245s] writing top-level names to my_parking_robot.egg-info/top_level.txt
+[1.247s] reading manifest file 'my_parking_robot.egg-info/SOURCES.txt'
+[1.265s] writing manifest file 'my_parking_robot.egg-info/SOURCES.txt'
+[1.267s] running build_ext
+[1.267s] Creating /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my-parking-robot.egg-link (link to .)
+[1.268s] Installing draw_circle script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot
+[1.268s] Installing pose_subscriber script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot
+[1.268s] Installing test_node script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot
+[1.268s] Installing turtle_controller script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot
+[1.268s] 
+[1.269s] Installed /home/andrisgerber/ros2_ws/build/my_parking_robot
+[1.269s] running symlink_data
+[1.297s] Invoked command in '/home/andrisgerber/ros2_ws/build/my_parking_robot' returned '0': PS1=\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/andrisgerber/ros2_ws/build/my_parking_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/andrisgerber/ros2_ws/build/my_parking_robot/build --no-deps symlink_data

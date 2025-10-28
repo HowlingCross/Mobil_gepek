@@ -1,0 +1,7 @@
+[console_scripts]
+andras_handwritten = my_parking_robot.andras_handwritten:main
+draw_circle = my_parking_robot.draw_circle:main
+pose_subscriber = my_parking_robot.pose_subscriber:main
+test_node = my_parking_robot.my_first_node:main
+turtle_controller = my_parking_robot.turtle_controller:main
+

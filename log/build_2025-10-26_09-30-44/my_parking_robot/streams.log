@@ -1,0 +1,18 @@
+[1.364s] Invoking command in '/home/andrisgerber/ros2_ws/build/my_parking_robot': PYTHONPATH=/home/andrisgerber/ros2_ws/build/my_parking_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/andrisgerber/ros2_ws/build/my_parking_robot/build --no-deps symlink_data
+[1.687s] running develop
+[1.890s] running egg_info
+[1.890s] writing my_parking_robot.egg-info/PKG-INFO
+[1.890s] writing dependency_links to my_parking_robot.egg-info/dependency_links.txt
+[1.891s] writing entry points to my_parking_robot.egg-info/entry_points.txt
+[1.891s] writing requirements to my_parking_robot.egg-info/requires.txt
+[1.891s] writing top-level names to my_parking_robot.egg-info/top_level.txt
+[1.893s] reading manifest file 'my_parking_robot.egg-info/SOURCES.txt'
+[1.894s] writing manifest file 'my_parking_robot.egg-info/SOURCES.txt'
+[1.896s] running build_ext
+[1.896s] Creating /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my-parking-robot.egg-link (link to .)
+[1.897s] Installing draw_circle script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot
+[1.897s] Installing test_node script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot
+[1.898s] 
+[1.898s] Installed /home/andrisgerber/ros2_ws/build/my_parking_robot
+[1.898s] running symlink_data
+[1.951s] Invoked command in '/home/andrisgerber/ros2_ws/build/my_parking_robot' returned '0': PYTHONPATH=/home/andrisgerber/ros2_ws/build/my_parking_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/andrisgerber/ros2_ws/build/my_parking_robot/build --no-deps symlink_data

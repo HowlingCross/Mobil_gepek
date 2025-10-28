@@ -1,0 +1,48 @@
+[0.745s] Invoking command in '/home/andrisgerber/ros2_ws/build/my_parking_robot': PS1=\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/andrisgerber/ros2_ws/build/my_parking_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/andrisgerber/ros2_ws/build/my_parking_robot/build
+[1.075s] running develop
+[1.266s] Removing /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my-parking-robot.egg-link (link to .)
+[1.294s] Invoked command in '/home/andrisgerber/ros2_ws/build/my_parking_robot' returned '0': PS1=\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/andrisgerber/ros2_ws/build/my_parking_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/andrisgerber/ros2_ws/build/my_parking_robot/build
+[1.296s] Invoking command in '/home/andrisgerber/ros2_ws/src/my_parking_robot': PS1=\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/andrisgerber/ros2_ws/build/my_parking_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_parking_robot build --build-base /home/andrisgerber/ros2_ws/build/my_parking_robot/build install --record /home/andrisgerber/ros2_ws/build/my_parking_robot/install.log --single-version-externally-managed install_data --force
+[1.587s] running egg_info
+[1.587s] writing ../../build/my_parking_robot/my_parking_robot.egg-info/PKG-INFO
+[1.588s] writing dependency_links to ../../build/my_parking_robot/my_parking_robot.egg-info/dependency_links.txt
+[1.588s] writing entry points to ../../build/my_parking_robot/my_parking_robot.egg-info/entry_points.txt
+[1.588s] writing requirements to ../../build/my_parking_robot/my_parking_robot.egg-info/requires.txt
+[1.588s] writing top-level names to ../../build/my_parking_robot/my_parking_robot.egg-info/top_level.txt
+[1.590s] reading manifest file '../../build/my_parking_robot/my_parking_robot.egg-info/SOURCES.txt'
+[1.591s] writing manifest file '../../build/my_parking_robot/my_parking_robot.egg-info/SOURCES.txt'
+[1.591s] running build
+[1.591s] running build_py
+[1.609s] copying my_parking_robot/draw_circle.py -> /home/andrisgerber/ros2_ws/build/my_parking_robot/build/lib/my_parking_robot
+[1.609s] copying my_parking_robot/my_first_node.py -> /home/andrisgerber/ros2_ws/build/my_parking_robot/build/lib/my_parking_robot
+[1.609s] copying my_parking_robot/andras_drawer.py -> /home/andrisgerber/ros2_ws/build/my_parking_robot/build/lib/my_parking_robot
+[1.610s] copying my_parking_robot/pose_subscriber.py -> /home/andrisgerber/ros2_ws/build/my_parking_robot/build/lib/my_parking_robot
+[1.610s] copying my_parking_robot/turtle_controller.py -> /home/andrisgerber/ros2_ws/build/my_parking_robot/build/lib/my_parking_robot
+[1.610s] running install
+[1.610s] running install_lib
+[1.611s] creating /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot
+[1.611s] copying /home/andrisgerber/ros2_ws/build/my_parking_robot/build/lib/my_parking_robot/draw_circle.py -> /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot
+[1.611s] copying /home/andrisgerber/ros2_ws/build/my_parking_robot/build/lib/my_parking_robot/my_first_node.py -> /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot
+[1.612s] copying /home/andrisgerber/ros2_ws/build/my_parking_robot/build/lib/my_parking_robot/__init__.py -> /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot
+[1.612s] copying /home/andrisgerber/ros2_ws/build/my_parking_robot/build/lib/my_parking_robot/andras_drawer.py -> /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot
+[1.612s] copying /home/andrisgerber/ros2_ws/build/my_parking_robot/build/lib/my_parking_robot/pose_subscriber.py -> /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot
+[1.612s] copying /home/andrisgerber/ros2_ws/build/my_parking_robot/build/lib/my_parking_robot/turtle_controller.py -> /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot
+[1.613s] byte-compiling /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot/draw_circle.py to draw_circle.cpython-310.pyc
+[1.613s] byte-compiling /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot/my_first_node.py to my_first_node.cpython-310.pyc
+[1.614s] byte-compiling /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot/__init__.py to __init__.cpython-310.pyc
+[1.614s] byte-compiling /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot/andras_drawer.py to andras_drawer.cpython-310.pyc
+[1.615s] byte-compiling /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[1.616s] byte-compiling /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot/turtle_controller.py to turtle_controller.cpython-310.pyc
+[1.616s] running install_data
+[1.616s] copying resource/my_parking_robot -> /home/andrisgerber/ros2_ws/install/my_parking_robot/share/ament_index/resource_index/packages
+[1.616s] copying package.xml -> /home/andrisgerber/ros2_ws/install/my_parking_robot/share/my_parking_robot
+[1.616s] running install_egg_info
+[1.618s] Copying ../../build/my_parking_robot/my_parking_robot.egg-info to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot-0.0.0-py3.10.egg-info
+[1.635s] running install_scripts
+[1.657s] Installing andras_drawer script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot
+[1.657s] Installing draw_circle script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot
+[1.658s] Installing pose_subscriber script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot
+[1.658s] Installing test_node script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot
+[1.658s] Installing turtle_controller script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot
+[1.658s] writing list of installed files to '/home/andrisgerber/ros2_ws/build/my_parking_robot/install.log'
+[1.682s] Invoked command in '/home/andrisgerber/ros2_ws/src/my_parking_robot' returned '0': PS1=\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/andrisgerber/ros2_ws/build/my_parking_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_parking_robot build --build-base /home/andrisgerber/ros2_ws/build/my_parking_robot/build install --record /home/andrisgerber/ros2_ws/build/my_parking_robot/install.log --single-version-externally-managed install_data --force

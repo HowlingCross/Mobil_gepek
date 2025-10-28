@@ -1,0 +1,43 @@
+[0.000000] (-) TimerEvent: {}
+[0.000764] (my_parking_robot) JobQueued: {'identifier': 'my_parking_robot', 'dependencies': OrderedDict()}
+[0.000917] (my_parking_robot) JobStarted: {'identifier': 'my_parking_robot'}
+[0.099667] (-) TimerEvent: {}
+[0.199981] (-) TimerEvent: {}
+[0.300260] (-) TimerEvent: {}
+[0.400602] (-) TimerEvent: {}
+[0.500863] (-) TimerEvent: {}
+[0.601134] (-) TimerEvent: {}
+[0.701439] (-) TimerEvent: {}
+[0.801696] (-) TimerEvent: {}
+[0.901964] (-) TimerEvent: {}
+[1.002589] (-) TimerEvent: {}
+[1.103070] (-) TimerEvent: {}
+[1.203659] (-) TimerEvent: {}
+[1.303907] (-) TimerEvent: {}
+[1.361089] (my_parking_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/andrisgerber/ros2_ws/build/my_parking_robot/build', '--no-deps', 'symlink_data'], 'cwd': '/home/andrisgerber/ros2_ws/build/my_parking_robot', 'env': {'USER': 'andrisgerber', 'LC_TIME': 'hu_HU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/andrisgerber', 'OLDPWD': '/home/andrisgerber', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hu_HU.UTF-8', 'MANAGERPID': '1154', 'SYSTEMD_EXEC_PID': '1922', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13799', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'andrisgerber', 'JOURNAL_STREAM': '8:3898', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'andrisgerber', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/HowlingCross:@/tmp/.ICE-unix/1432,unix/HowlingCross:/tmp/.ICE-unix/1432', 'INVOCATION_ID': 'a32d69324970480585f08e0a361a2d3f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hu_HU.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'hu_HU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.35VPE3', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'hu_HU.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:30d4bdf3-61e4-49f8-b2f1-de51d676270d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'hu_HU.UTF-8', 'LC_IDENTIFICATION': 'hu_HU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/andrisgerber/ros2_ws/build/my_parking_robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/andrisgerber/ros2_ws/build/my_parking_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'hu_HU.UTF-8', 'LC_PAPER': 'hu_HU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.404003] (-) TimerEvent: {}
+[1.504290] (-) TimerEvent: {}
+[1.604598] (-) TimerEvent: {}
+[1.687498] (my_parking_robot) StdoutLine: {'line': b'running develop\n'}
+[1.704700] (-) TimerEvent: {}
+[1.804992] (-) TimerEvent: {}
+[1.890746] (my_parking_robot) StdoutLine: {'line': b'running egg_info\n'}
+[1.891062] (my_parking_robot) StdoutLine: {'line': b'writing my_parking_robot.egg-info/PKG-INFO\n'}
+[1.891262] (my_parking_robot) StdoutLine: {'line': b'writing dependency_links to my_parking_robot.egg-info/dependency_links.txt\n'}
+[1.891554] (my_parking_robot) StdoutLine: {'line': b'writing entry points to my_parking_robot.egg-info/entry_points.txt\n'}
+[1.891934] (my_parking_robot) StdoutLine: {'line': b'writing requirements to my_parking_robot.egg-info/requires.txt\n'}
+[1.892006] (my_parking_robot) StdoutLine: {'line': b'writing top-level names to my_parking_robot.egg-info/top_level.txt\n'}
+[1.893681] (my_parking_robot) StdoutLine: {'line': b"reading manifest file 'my_parking_robot.egg-info/SOURCES.txt'\n"}
+[1.894659] (my_parking_robot) StdoutLine: {'line': b"writing manifest file 'my_parking_robot.egg-info/SOURCES.txt'\n"}
+[1.896353] (my_parking_robot) StdoutLine: {'line': b'running build_ext\n'}
+[1.896681] (my_parking_robot) StdoutLine: {'line': b'Creating /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/python3.10/site-packages/my-parking-robot.egg-link (link to .)\n'}
+[1.897756] (my_parking_robot) StdoutLine: {'line': b'Installing draw_circle script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot\n'}
+[1.898150] (my_parking_robot) StdoutLine: {'line': b'Installing test_node script to /home/andrisgerber/ros2_ws/install/my_parking_robot/lib/my_parking_robot\n'}
+[1.898377] (my_parking_robot) StdoutLine: {'line': b'\n'}
+[1.898548] (my_parking_robot) StdoutLine: {'line': b'Installed /home/andrisgerber/ros2_ws/build/my_parking_robot\n'}
+[1.898812] (my_parking_robot) StdoutLine: {'line': b'running symlink_data\n'}
+[1.905340] (-) TimerEvent: {}
+[1.951870] (my_parking_robot) CommandEnded: {'returncode': 0}
+[2.005634] (-) TimerEvent: {}
+[2.055357] (my_parking_robot) JobEnded: {'identifier': 'my_parking_robot', 'rc': 0}
+[2.056303] (-) EventReactorShutdown: {}
