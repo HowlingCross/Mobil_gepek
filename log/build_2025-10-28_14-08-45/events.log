@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000857] (my_parking_robot) JobQueued: {'identifier': 'my_parking_robot', 'dependencies': OrderedDict()}
-[0.000981] (my_parking_robot) JobStarted: {'identifier': 'my_parking_robot'}
-[0.014389] (my_parking_robot) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 87, in build\n    create_file(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 274, in create_file\n    with open(dst, \'w\') as h:\nFileNotFoundError: [Errno 2] No such file or directory: \'/home/andrisgerber/ros2_workspace/install/my_parking_robot/share/ament_index/resource_index/packages/my_parking_robot\'\n'}
-[0.014893] (my_parking_robot) JobEnded: {'identifier': 'my_parking_robot', 'rc': 1}
-[0.024748] (-) EventReactorShutdown: {}

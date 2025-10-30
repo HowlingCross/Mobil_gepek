@@ -22,7 +22,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "my_parking_robot = my_parking_robot.my_parking_robot:main"
+            "my_parking_robot = my_parking_robot.my_parking_robot:main",
+            "control = my_parking_robot.control:main",
+            "PathCreator = my_parking_robot.PathCreator:main"
         ],
     },
 )

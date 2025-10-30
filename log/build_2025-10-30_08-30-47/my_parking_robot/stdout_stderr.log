@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/my_parking_robot/my_parking_robot.egg-info
+writing ../../build/my_parking_robot/my_parking_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_parking_robot/my_parking_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/my_parking_robot/my_parking_robot.egg-info/entry_points.txt
+writing requirements to ../../build/my_parking_robot/my_parking_robot.egg-info/requires.txt
+writing top-level names to ../../build/my_parking_robot/my_parking_robot.egg-info/top_level.txt
+writing manifest file '../../build/my_parking_robot/my_parking_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_parking_robot/my_parking_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_parking_robot/my_parking_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/andrisgerber/ros2_workspace/build/my_parking_robot/build
+creating /home/andrisgerber/ros2_workspace/build/my_parking_robot/build/lib
+creating /home/andrisgerber/ros2_workspace/build/my_parking_robot/build/lib/my_parking_robot
+copying my_parking_robot/__init__.py -> /home/andrisgerber/ros2_workspace/build/my_parking_robot/build/lib/my_parking_robot
+copying my_parking_robot/my_parking_robot.py -> /home/andrisgerber/ros2_workspace/build/my_parking_robot/build/lib/my_parking_robot
+running install
+running install_lib
+creating /home/andrisgerber/ros2_workspace/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot
+copying /home/andrisgerber/ros2_workspace/build/my_parking_robot/build/lib/my_parking_robot/__init__.py -> /home/andrisgerber/ros2_workspace/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot
+copying /home/andrisgerber/ros2_workspace/build/my_parking_robot/build/lib/my_parking_robot/my_parking_robot.py -> /home/andrisgerber/ros2_workspace/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot
+byte-compiling /home/andrisgerber/ros2_workspace/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/andrisgerber/ros2_workspace/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot/my_parking_robot.py to my_parking_robot.cpython-310.pyc
+running install_data
+creating /home/andrisgerber/ros2_workspace/install/my_parking_robot/share/ament_index
+creating /home/andrisgerber/ros2_workspace/install/my_parking_robot/share/ament_index/resource_index
+creating /home/andrisgerber/ros2_workspace/install/my_parking_robot/share/ament_index/resource_index/packages
+copying resource/my_parking_robot -> /home/andrisgerber/ros2_workspace/install/my_parking_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/andrisgerber/ros2_workspace/install/my_parking_robot/share/my_parking_robot
+creating /home/andrisgerber/ros2_workspace/install/my_parking_robot/share/my_parking_robot/launch
+copying launch/my_parking_robot.launch.xml -> /home/andrisgerber/ros2_workspace/install/my_parking_robot/share/my_parking_robot/launch
+creating /home/andrisgerber/ros2_workspace/install/my_parking_robot/share/my_parking_robot/rviz
+copying rviz/my_parking_robot.rviz -> /home/andrisgerber/ros2_workspace/install/my_parking_robot/share/my_parking_robot/rviz
+running install_egg_info
+Copying ../../build/my_parking_robot/my_parking_robot.egg-info to /home/andrisgerber/ros2_workspace/install/my_parking_robot/lib/python3.10/site-packages/my_parking_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_parking_robot script to /home/andrisgerber/ros2_workspace/install/my_parking_robot/lib/my_parking_robot
+writing list of installed files to '/home/andrisgerber/ros2_workspace/build/my_parking_robot/install.log'

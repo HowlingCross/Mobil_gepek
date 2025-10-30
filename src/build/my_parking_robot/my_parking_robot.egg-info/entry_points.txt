@@ -1,3 +1,0 @@
-[console_scripts]
-my_parking_robot = my_parking_robot.my_parking_robot:main
-
