@@ -10,7 +10,11 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+       
         ('share/' + package_name + '/launch', ['launch/my_parking_robot.launch.xml']),
+        
+        ('share/' + package_name + '/param', ['param/path.txt']), 
+        
         ('share/' + package_name + '/rviz', ['rviz/my_parking_robot.rviz'])
     ],
     install_requires=['setuptools'],
@@ -22,9 +26,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "my_parking_robot = my_parking_robot.my_parking_robot:main",
-            "control = my_parking_robot.control:main",
-            "PathCreator = my_parking_robot.PathCreator:main"
+            "waypoint_sender = my_parking_robot.waypoint_sender:main",
+            "waypoint_follower = my_parking_robot.waypoint_follower:main",   
         ],
     },
 )

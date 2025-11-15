@@ -1,22 +1,22 @@
 <launch>
+    <executable
+        cmd="ros2 bag play --clock 1000 $(find-pkg-share gyak3)/bag"
+        output="screen"
+        name="rosbag_play"
+        shell="true"
+    />
 
-    <!-- Optional: Gazebo indítása -->
-    <include file="$(find-pkg-share gazebo_ros)/launch/gzserver.launch.py">
-        <arg name="world" value="$(find-pkg-share turtlebot3_gazebo)/worlds/turtlebot3_world.world"/>
-    </include>
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="map_to_robot2_odom" output="screen"
+        args="0.0 0.0 0.0 0.0 0.0 0.0 map odom"/>
 
-    <include file="$(find-pkg-share gazebo_ros)/launch/gzclient.launch.py">
-    </include>
+    <node pkg="my_parking_robot" exec="waypoint_sender" name="waypoint_sender_node" output="screen">
+        <param name="text_file_name" value="/home/andrisgerber/ros2_workspace/src/my_parking_robot/param/path.txt"/>
+    </node> 
 
-    <!-- Saját node-jaid -->
-    <node pkg="my_parking_robot" exec="my_parking_robot" name="diff_robot" output="screen"/>
+    <node pkg="my_parking_robot" exec="waypoint_follower" name="waypoint_follower_node" output="screen">
+        <param name="publish_rate" value="10.0"/>
+    </node>
 
-    <node pkg="my_parking_robot" exec="control" name="controller" output="screen"/>
-
-    <node pkg="my_parking_robot" exec="PathCreator" name="PathCreator" output="screen"/>
-
-    <!-- RViz -->
-    <node pkg="rviz2" exec="rviz2" name="rviz2" 
-          args="-d $(find-pkg-share my_parking_robot)/rviz/my_parking_robot.rviz"/>
+    <node pkg="rviz2" exec="rviz2" name="rviz2" args="-d $(find-pkg-share my_parking_robot)/rviz/my_parking_robot.rviz"/>
 
 </launch>
